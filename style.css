@@ -1,0 +1,69 @@
+body {
+    display: flex;
+}
+
+
+
+.top {
+    display: flex;
+}
+
+.header {
+    display: flex;
+}
+
+.header .links{
+    display: flex;
+}
+
+.intro{
+    display: flex;
+}
+
+
+
+
+.main{
+    display: flex;
+}
+
+.main .info{
+    display: flex;
+}
+
+.elements-container{
+    display: flex;
+}
+
+.element{
+    display: flex;
+}
+
+
+
+
+.quote{
+    display: flex;
+}
+
+.quote-container{
+    display: flex;
+}
+
+
+
+.sign-up{
+    display: flex;
+}
+
+.sign-up-container{
+    display: flex;
+}
+
+
+
+.footer{
+    display: flex;
+}
+
+
