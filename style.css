@@ -142,26 +142,58 @@ body > * {
 
 .main {
     display: flex;
-    margin: auto 0;
+    flex: auto;
+    height: 375px;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    padding: 50px;
 }
 
+
 .main .info {
-    display: flex;
+    flex: initial;
+    font-size: 36px;
+    font-weight: 900;
+    height: 40px;
 }
 
 .elements-container {
     display: flex;
+    flex: auto;
+    gap: 30px;
+    justify-content: flex-start;
 }
 
 .element {
     display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
+.element .picture {
+    flex: initial;
+    width: 150px;
+    height: 150px;
+    border: 2px solid #3882F6;
+    border-radius: 10px;
+}
+
+.element .description {
+    display: flex;
+    flex: auto;
+    width: 140px;
+    align-self: center;
+    font-family: Helvetica;
+    font-size: 14px;
+    text-align: center;
+}
 
 /* Quote Part of the page */
 
 .quote {
     display: flex;
+    background-color: gray;
 }
 
 .quote-container {
