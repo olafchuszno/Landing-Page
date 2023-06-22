@@ -227,10 +227,54 @@ body > * {
 
 .sign-up{
     display: flex;
+    flex: auto;
+    height: 350px;
+    justify-content: center;
+    align-items: center;
+    color: white;
 }
 
 .sign-up-container {
     display: flex;
+    flex: auto;
+    height: 150px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 150px;
+    border-radius: 8px;
+    background-color: #3882F6;
+}
+
+.sign-up-container .left {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.sign-up-container .left p {
+    margin: 0;
+    padding: 0;
+}
+
+.sign-up-container .left .left-main {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.sign-up-container .left .left-subtext {
+    font-size: 17px;
+    font-weight: 300;
+}
+
+#sign-up-bottom-button {
+    width: 125px;
+    background-color: #3882F6;
+    border: 2px solid white;
+    border-radius: 8px;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 6px 5px;
 }
 
 
