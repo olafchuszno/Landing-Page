@@ -193,7 +193,6 @@ body > * {
 
 .quote {
     display: flex;
-    background-color: gray;
 }
 
 .quote-container {
