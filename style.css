@@ -228,7 +228,7 @@ body > * {
 .sign-up{
     display: flex;
     flex: auto;
-    height: 350px;
+    height: 370px;
     justify-content: center;
     align-items: center;
     color: white;
@@ -237,7 +237,7 @@ body > * {
 .sign-up-container {
     display: flex;
     flex: auto;
-    height: 150px;
+    height: 160px;
     align-items: center;
     justify-content: space-between;
     padding: 0 150px;
@@ -267,7 +267,7 @@ body > * {
 }
 
 #sign-up-bottom-button {
-    width: 125px;
+    width: 130px;
     background-color: #3882F6;
     border: 2px solid white;
     border-radius: 8px;
@@ -281,6 +281,13 @@ body > * {
 
 .footer {
     display: flex;
+    height: 106px;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
+    font-size: 18px;
+    font-weight: 300;
 }
 
 
