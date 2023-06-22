@@ -193,10 +193,32 @@ body > * {
 
 .quote {
     display: flex;
+    background-color: #E5E7EB;
+    align-items: center;
+    justify-content: center;
+    height: 425px;
 }
 
 .quote-container {
     display: flex;
+    flex-direction: column;
+    width: 750px;
+    flex: initial;
+}
+
+.quote-text {
+    font-size: 34px;
+    font-weight: 300;
+    color: rgb(60, 60, 60);
+}
+
+.quote-author {
+    width: 305px;
+    align-self: flex-end;
+    font-weight: 700;
+    font-size: 23px;
+    display: flex;
+    justify-content: center;
 }
 
 
